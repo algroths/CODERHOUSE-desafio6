@@ -1,4 +1,5 @@
 const socket = io()
+
 const tabla = document.getElementById('contentTable')
 const email = document.getElementById('email')
 const inputMessage = document.getElementById('inputMessage')
@@ -9,7 +10,7 @@ const scrollMessage = document.getElementById('scroll')
 
 socket.on('contentTable', async () => {
     try {
-        const response = await fetch('http://localhost:8080/productos/table')
+        const response = await fetch('/productos/table')
         const data = await response.json()
 
         const productos = data

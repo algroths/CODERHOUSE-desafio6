@@ -11,19 +11,19 @@ let obj = [
     {
         title: "Thor",
         price: "30€",
-        url: "http://localhost:8080/static/thor.png",
+        url: "/static/thor.png",
         id: 1
     },
     {
         title: "PsychoDuck",
         price: "20€",
-        url: "http://localhost:8080/static/pyscho.png",
+        url: "/static/pyscho.png",
         id: 2
     },
     {
         title: "Rubik",
         price: "25€",
-        url: "http://localhost:8080/static/rubik.png",
+        url: "/static/rubik.png",
         id: 3
     }
 ]
